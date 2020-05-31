@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs",
+      "strict": false,
+      "noEmit": false,
+      "outDir": "dist",
+      "jsx": "preserve",
+      "importHelpers": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strictPropertyInitialization": false,
+      "noImplicitUseStrict": true,
+      "sourceMap": false,
+      "baseUrl": ".",
+      "declaration": false,
+      "types": [],
+      "paths": {
+        "@/*": [
+          "src/*"
+        ]
+      },
+      "lib": [
+        "esnext",
+        "dom",
+        "dom.iterable",
+        "scripthost"
+      ]
+    },
+    "include": [
+      "src/**/*.ts",
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
