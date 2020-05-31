@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "build": "tsc",
     "dev": "tsc --watch",
     "serve": "supervisor dist/main.js",
     "parse_csv": "node dist/parse_csv_now.js",
